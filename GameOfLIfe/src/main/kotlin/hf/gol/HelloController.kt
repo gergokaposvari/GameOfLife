@@ -1,4 +1,4 @@
-package kotlin.hf.gol
+package hf.gol
 
 import javafx.fxml.FXML
 import javafx.scene.control.Label

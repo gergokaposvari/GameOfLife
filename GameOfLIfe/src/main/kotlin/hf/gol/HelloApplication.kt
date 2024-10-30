@@ -1,4 +1,4 @@
-package kotlin.hf.gol
+package hf.gol
 
 import javafx.application.Application
 import javafx.fxml.FXMLLoader

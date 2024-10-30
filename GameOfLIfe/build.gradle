@@ -7,7 +7,7 @@ plugins {
     id 'org.beryx.jlink' version '2.25.0'
 }
 
-group 'kotlin.hf'
+group 'hf'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -24,11 +24,11 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'kotlin.hf.gol'
-    mainClass = 'kotlin.hf.gol.HelloApplication'
+    mainModule = 'hf.gol'
+    mainClass = 'hf.gol.HelloApplication'
 }
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 javafx {

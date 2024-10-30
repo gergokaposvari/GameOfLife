@@ -1,9 +1,9 @@
-module kotlin.hf.gol {
+module hf.gol {
     requires javafx.controls;
     requires javafx.fxml;
     requires kotlin.stdlib;
 
 
-    opens kotlin.hf.gol to javafx.fxml;
-    exports kotlin.hf.gol;
+    opens hf.gol to javafx.fxml;
+    exports hf.gol;
 }
